@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="reset.css">
+        <link rel="stylesheet" href="style.css">
+        <title>Encriptador</title>
+    </head>
+    <body>
+        <header>
+            <img class="logoAlura" src="imagens/logoAlura.png" alt="logo da Alura">
+        </header>
+
+        <main>
+            <section>
+                <textarea class="text-area" cols="41" rows="4" placeholder="Digite seu texto aqui"></textarea>
+
+                <div>
+                    <p class="informacao"><img src="imagens/exclamação.png.png"> ATENÇÃO: Apenas letras minúsculas e sem acento</p>
+                </div>
+
+                <div class="botoes">
+                    <button onclick="btnEncriptar()" class="btn-encriptar">Criptografar</button>
+                    <button onclick="btnDescriptar()" class="btn-desencriptar">Descriptografar</button>
+                </div>
+            </section>
+
+            <section>
+                <div id="mensagem-saida">
+                    <textarea class="mensagem" cols="20" rows="10"></textarea>
+                    <button onclick="copiarTexto()" class="btn-copiar" id="copiar-texto">Copiar</button>
+                </div>
+            </section>
+
+        </main>
+
+        <footer>
+            <div class="icone">
+                <a href="https://www.linkedin.com/in/silvanio-junior/"></a>
+                <a href="https://github.com/SilvanioJr/"></a>
+            </div> 
+            <h4>Desenvolvido por Silvanio Junior</h4>
+            <p>&copy;Copyright decodificador de texto - 2023</p>
+        </footer>
+
+        <script src="script.js"></script>
+    </body>
+</html>
+

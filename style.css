@@ -1,0 +1,138 @@
+* {
+    background: #CCCCCC;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 150%;
+}
+
+.logoAlura {
+    margin-left: 80px;
+    padding-top: 50px;
+    width: 2%;
+}
+
+main {
+    /*vai permitir ver o campo de texto um do lado do outro*/
+    display: flex;
+    margin-bottom: 50px;
+    margin-left: 180px;
+}
+
+.text-area {
+    border: none;
+    color: #0A3871;
+    margin-top: 50px;
+    text-transform: lowercase;
+    resize: none;
+}
+
+::placeholder {color: #0A3871;}
+/*para tirar o foco do placeholder do texto de entrada*/
+    .text-area:focus {
+        outline: none;
+    }
+
+.mensagem {
+    background: white;
+    /*para adicionar a imagem dentro do textarea */
+    background-image: url(imagens/boneco.png);
+    /*para não repetir a imagem*/
+    background-repeat: no-repeat;
+    background-position: 0%;
+    border: none;
+    border-radius: 24px;
+    color: #0A3871;
+    margin-left: 150px;
+    margin-top: 0px;
+    padding-left: 20px;
+    position: absolute;
+    resize: none;
+}
+
+.mensagem:focus{
+    outline: none;
+}
+
+
+.botoes {
+    display: flex;
+    margin-top: 18px;
+}
+
+.btn-desencriptar {
+    background: #D8DFe8;
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    color: #0A3871;
+    font-size: 24px;
+    cursor: pointer;
+    position: absolute;
+    margin-top: 175px;
+    height: 67px;
+    margin-left: 360px;
+    width: 336px;
+
+}
+
+.btn-encriptar {
+    background: #0A3871;
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    color: white;
+    font-size: 24px;
+    cursor: pointer;
+    position: absolute;
+    margin-top: 175px;
+    height: 67px;
+    width: 336px;
+}
+
+.btn-copiar {
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    color: #0A3871;
+    font-size: 24px;
+    cursor: pointer;
+    height: 67px;
+    margin-left: 166px;
+    margin-top: 390px;
+    position: absolute;
+    width: 326px;
+}
+
+button {
+    transition: 500ms;
+}
+
+button:hover {
+    transform: scale(1.1);
+    text-decoration: underline;
+}
+
+.informacao {
+    color: #495057;
+    font-size: 18px;
+    position: absolute;
+    margin-top: 155px;
+    margin-left: 30px;
+}
+
+footer {
+    margin-top: 250px;
+    height: 55px;
+    width: 100%;
+    background: #0A3871;
+    padding: 2em 0;
+    text-align: center;
+}
+
+footer p, h4 {
+    background: #0A3871;
+    color: #FFFFFF;
+    margin-top: 40px;
+}
+
+footer p {
+    margin-top: 2px;
+}
